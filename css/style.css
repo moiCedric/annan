@@ -29,3 +29,88 @@
 .phone-box input{
     flex: 1;
 }
+/* Form container */
+.form-container{
+    background-color: white;
+
+    width: 420px;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h2{
+    text-align: center;
+
+    color: #222;
+
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.subtitle{
+    text-align: center;
+
+    color: gray;
+
+    margin-bottom: 20px;
+
+    font-size: 14px;
+}
+
+/* Labels */
+label{
+    margin-top: 10px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+/* Inputs */
+input,
+textarea,
+select{
+    padding: 10px;
+
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+
+    font-size: 14px;
+}
+
+/* Message box */
+textarea{
+    height: 100px;
+
+    resize: none;
+}
+
+/* Button */
+button{
+    margin-top: 20px;
+
+    background-color: black;
+
+    color: white;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover{
+    background-color: #444;
+}

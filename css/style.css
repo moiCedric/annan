@@ -14,3 +14,18 @@
         display: flex;
         flex-direction: column;
     }
+    /*For the phone number codes*/
+    .phone-box{
+    display: flex;
+    gap: 10px;
+}
+
+.phone-box select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.phone-box input{
+    flex: 1;
+}

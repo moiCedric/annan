@@ -20,7 +20,25 @@
             <input type="email" name="email" placeholder="Enter your email" required>
 
             <label>Phone Number</label>
-            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+            <div class="phone-box">
+
+    <select name="country-code">
+        <option value="+254">🇰🇪 +254</option>
+        <option value="+1">🇺🇸 +1</option>
+        <option value="+44">🇬🇧 +44</option>
+        <option value="+91">🇮🇳 +91</option>
+        <option value="+255">🇹🇿 +255</option>
+        <option value="+256">🇺🇬 +256</option>
+    </select>
+
+    <input 
+        type="tel"
+        name="phone"
+        placeholder="712345678"
+        maxlength="9"
+        pattern="[0-9]{9}"
+        required
+    >
 
             <label>Subject Line</label>
             <input type="text" name="subject" placeholder="Enter subject" required>
